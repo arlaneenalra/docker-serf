@@ -28,3 +28,6 @@ It will print the allocated port (like 4751). Test your deployment:
 	serf join 0.0.0.0:4751
 
 Done!
+
+Note: This is an updated version of the original https://github.com/CenturyLinkLabs/docker-serf docker image.
+      Proper due should be given to them for originally creating the base.

@@ -1,4 +1,4 @@
-FROM ubuntu:14.04.3
+FROM ubuntu:14.04.5
 MAINTAINER Chris Salch <emeraldd.chris@gmail.com>
 # Based on ctlc/serf by Lucas Carlson <lucas@rufy.com>
 
@@ -7,7 +7,7 @@ ENV DEBIAN_FRONTEND noninteractive
 # Let's get serf
 RUN apt-get update -q && apt-get install -qy build-essential git supervisor unzip
 
-ADD https://releases.hashicorp.com/serf/0.7.0/serf_0.7.0_linux_amd64.zip serf.zip
+ADD https://releases.hashicorp.com/serf/0.8.0/serf_0.8.0_linux_amd64.zip serf.zip
 RUN unzip serf.zip
 RUN rm serf.zip
 RUN mv serf /usr/bin/
