@@ -1,6 +1,8 @@
 docker-serf
 ==================
 
+[![](https://images.microbadger.com/badges/image/arlaneenalra/docker-serf.svg)](https://microbadger.com/images/arlaneenalra/docker-serf "Get your own image badge on microbadger.com")
+
 Base docker image to run a serf (http://www.serfdom.io) agent
 
 
